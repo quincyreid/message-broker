@@ -1,9 +1,9 @@
 /**
  * Server
  */
-let bodyParser = require('body-parser')
-let express = require('express')
-let app = express()
+const bodyParser = require('body-parser')
+const express = require('express')
+const app = express()
 
 app.use(bodyParser.json())
 
