@@ -9,6 +9,10 @@
     "start": "node server.js"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:quincyreid/message-broker.git"
+  },
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.5.1",
