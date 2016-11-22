@@ -2,7 +2,10 @@
   "name": "message-broker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "7.1.0"
+  },
   "scripts": {
     "watch": "./node_modules/.bin/nodemon",
     "pretest": "standard",
@@ -17,6 +20,7 @@
   "dependencies": {
     "amqplib": "^0.5.1",
     "body-parser": "^1.15.2",
+    "email-validator": "^1.0.7",
     "express": "^4.14.0",
     "sendgrid": "^4.7.1"
   },
